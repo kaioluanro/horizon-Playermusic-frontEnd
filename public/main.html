@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herozin-Web Player Music</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body> 
+    <section>
+        <header>
+            <li>
+                <strong id="title">Musica</strong>
+            </li>
+        </header>
+
+        <div id="wavesurfer"></div>
+
+        <form>
+           <button id="btn-prev" type="button">
+              <img src="../src/assets/botoes/preverios.svg" alt="Volta">
+           </button>
+           <button id="btn-play" type="button">
+              <img src="../src/assets/botoes/play.svg" alt="Play">
+           </button>
+           <button id="btn-pause" type="button">
+              <img src="../src/assets/botoes/pause.svg" alt="Pause">
+           </button>
+           <button id="btn-next" type="button">
+              <img src="../src/assets/botoes/next.svg" alt="Proximo">
+           </button>
+        </form>
+    </section>
+    <canvas id="canvas-bg" style="background: #000000;"/>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="../src/player.js"></script>
+
+</body>
+</html>
